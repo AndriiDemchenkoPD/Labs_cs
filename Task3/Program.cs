@@ -1,14 +1,14 @@
-﻿namespace task3
+﻿namespace Task3
 {
-    internal class Program
+    public class Program
     {
-        static string ClassifyAge(int age)
+        public static string ClassifyAge(int age)
         {
             if (age < 0 || age > 120)
                 return "Нереальний вік";
             else if (age < 12)
                 return "Ви дитина";
-            else if (age >= 13 && age <= 17)
+            else if (age >= 12 && age <= 17)
                 return "Підліток";
             else if (age >= 18 && age <= 59)
                 return "Дорослий";
@@ -16,7 +16,7 @@
                 return "Пенсіонер";
         }
 
-        static void Main()
+        public static void Main()
         {
             Console.Write("Введіть ваш вік: ");
             if (int.TryParse(Console.ReadLine(), out int age))

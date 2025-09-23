@@ -1,39 +1,46 @@
-﻿namespace task4
+﻿namespace Task4
 {
-    internal class Program
+    public class Program
     {
-        static bool IsValidTriangle(double a, double b, double c)
+        public static bool IsValidTriangle(double a, double b, double c)
         {
             return a > 0 && b > 0 && c > 0 &&
                    a + b > c && a + c > b && b + c > a;
         }
 
-        static double GetPerimeter(double a, double b, double c)
+        public static double GetPerimeter(double a, double b, double c)
         {
+            if (!IsValidTriangle(a, b, c))
+                throw new ArgumentException("Некоректні сторони трикутника.");
             return a + b + c;
         }
 
-        static double GetArea(double a, double b, double c)
+        public static double GetArea(double a, double b, double c)
         {
+            if (!IsValidTriangle(a, b, c))
+                throw new ArgumentException("Некоректні сторони трикутника.");
             double s = GetPerimeter(a, b, c) / 2;
             return Math.Sqrt(s * (s - a) * (s - b) * (s - c));
         }
 
-        static string GetTriangleType(double a, double b, double c)
+        public static string GetTriangleType(double a, double b, double c)
         {
+            if (!IsValidTriangle(a, b, c))
+                throw new ArgumentException("Некоректні сторони трикутника.");
+
             if (a == b && b == c)
-                return "Рівносторонній";
+                return "рівносторонній";
 
             if (a == b || b == c || a == c)
-                return "Рівнобедрений";
+                return "рівнобедрений";
 
             double a2 = a * a, b2 = b * b, c2 = c * c;
-            if (Math.Abs(a2 + b2 - c2) < 1e-6 ||
-                Math.Abs(a2 + c2 - b2) < 1e-6 ||
-                Math.Abs(b2 + c2 - a2) < 1e-6)
-                return "Прямокутний";
+            if (Math.Abs(a2 + b2 - c2) < 0.1 ||
+                Math.Abs(a2 + c2 - b2) < 0.1 ||
+                Math.Abs(b2 + c2 - a2) < 0.1)
+                return "прямокутний";
 
-            return "Довільний";
+            return "довільний";
         }
 
         static void Main()
@@ -50,8 +57,8 @@
             if (IsValidTriangle(a, b, c))
             {
                 Console.WriteLine("\nТрикутник існує.");
-                Console.WriteLine($"Периметр: {GetPerimeter(a, b, c):F2}");
-                Console.WriteLine($"Площа: {GetArea(a, b, c):F2}");
+                Console.WriteLine($"Периметр: {GetPerimeter(a, b, c)}");
+                Console.WriteLine($"Площа: {GetArea(a, b, c)}");
                 Console.WriteLine($"Тип: {GetTriangleType(a, b, c)}");
             }
             else

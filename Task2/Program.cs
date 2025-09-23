@@ -1,4 +1,4 @@
-﻿namespace task2
+﻿namespace Task2
 {
     public class Program
     {
@@ -39,7 +39,7 @@
             return min;
         }
 
-        static int GetMax(int[] numbers)
+        public static int GetMax(int[] numbers)
         {
             int max = numbers[0];
             foreach (int num in numbers)
@@ -50,7 +50,7 @@
             return max;
         }
 
-        static void Main()
+        public static void Main()
         {
             int[] array = GenerateRandomArray(10, 1, 100);
 

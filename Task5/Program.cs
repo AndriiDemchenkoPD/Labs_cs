@@ -1,10 +1,10 @@
-﻿namespace task5
+﻿namespace Task5
 {
     using System;
 
-    internal class Program
+    public class Program
     {
-        static double GetAverage(int[] marks)
+        public static double GetAverage(int[] marks)
         {
             if (marks.Length == 0) return 0;
             int sum = 0;
@@ -13,7 +13,7 @@
             return (double)sum / marks.Length;
         }
 
-        static int GetMin(int[] marks)
+        public static int GetMin(int[] marks)
         {
             int min = marks[0];
             foreach (int mark in marks)
@@ -22,7 +22,7 @@
             return min;
         }
 
-        static int GetMax(int[] marks)
+        public static int GetMax(int[] marks)
         {
             int max = marks[0];
             foreach (int mark in marks)
@@ -31,7 +31,7 @@
             return max;
         }
 
-        static void PrintGroupStatistics(int[][] groups)
+        public static void PrintGroupStatistics(int[][] groups)
         {
             for (int i = 0; i < groups.Length; i++)
             {

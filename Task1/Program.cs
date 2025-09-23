@@ -1,8 +1,8 @@
-﻿namespace task1
+﻿namespace Task1
 {
     public class Program
     {
-        static bool IsEven(int number)
+        public static bool IsEven(int number)
         {
             return number % 2 == 0;
         }
