@@ -1,8 +1,8 @@
 ﻿namespace task2
 {
-    internal class Program
+    public class Program
     {
-        static int[] GenerateRandomArray(int size, int min, int max)
+        public static int[] GenerateRandomArray(int size, int min, int max)
         {
             Random rand = new Random();
             int[] array = new int[size];
@@ -13,7 +13,7 @@
             return array;
         }
 
-        static int GetSum(int[] numbers)
+        public static int GetSum(int[] numbers)
         {
             int sum = 0;
             foreach (int num in numbers)
@@ -23,12 +23,12 @@
             return sum;
         }
 
-        static double GetAverage(int[] numbers)
+        public static double GetAverage(int[] numbers)
         {
             return numbers.Length == 0 ? 0 : (double)GetSum(numbers) / numbers.Length;
         }
 
-        static int GetMin(int[] numbers)
+        public static int GetMin(int[] numbers)
         {
             int min = numbers[0];
             foreach (int num in numbers)
