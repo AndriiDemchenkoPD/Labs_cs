@@ -1,0 +1,14 @@
+C:\Users\csgof\source\repos\Librarybooling\Librarybooling\obj\Debug\net8.0\Librarybooling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\csgof\source\repos\Librarybooling\Librarybooling\obj\Debug\net8.0\Librarybooling.AssemblyInfoInputs.cache
+C:\Users\csgof\source\repos\Librarybooling\Librarybooling\obj\Debug\net8.0\Librarybooling.AssemblyInfo.cs
+C:\Users\csgof\source\repos\Librarybooling\Librarybooling\obj\Debug\net8.0\Librarybooling.csproj.CoreCompileInputs.cache
+C:\Users\csgof\source\repos\Librarybooling\Librarybooling\bin\Debug\net8.0\Librarybooling.exe
+C:\Users\csgof\source\repos\Librarybooling\Librarybooling\bin\Debug\net8.0\Librarybooling.deps.json
+C:\Users\csgof\source\repos\Librarybooling\Librarybooling\bin\Debug\net8.0\Librarybooling.runtimeconfig.json
+C:\Users\csgof\source\repos\Librarybooling\Librarybooling\bin\Debug\net8.0\Librarybooling.dll
+C:\Users\csgof\source\repos\Librarybooling\Librarybooling\bin\Debug\net8.0\Librarybooling.pdb
+C:\Users\csgof\source\repos\Librarybooling\Librarybooling\obj\Debug\net8.0\Librarybooling.dll
+C:\Users\csgof\source\repos\Librarybooling\Librarybooling\obj\Debug\net8.0\refint\Librarybooling.dll
+C:\Users\csgof\source\repos\Librarybooling\Librarybooling\obj\Debug\net8.0\Librarybooling.pdb
+C:\Users\csgof\source\repos\Librarybooling\Librarybooling\obj\Debug\net8.0\Librarybooling.genruntimeconfig.cache
+C:\Users\csgof\source\repos\Librarybooling\Librarybooling\obj\Debug\net8.0\ref\Librarybooling.dll

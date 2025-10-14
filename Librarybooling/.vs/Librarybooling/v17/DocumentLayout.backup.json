@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\csgof\\source\\repos\\Librarybooling\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09F9A708-D753-4AA9-B1DC-08D7AE693EF4}|Librarybooling\\Librarybooling.csproj|c:\\users\\csgof\\source\\repos\\librarybooling\\librarybooling\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09F9A708-D753-4AA9-B1DC-08D7AE693EF4}|Librarybooling\\Librarybooling.csproj|solutionrelative:librarybooling\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09F9A708-D753-4AA9-B1DC-08D7AE693EF4}|Librarybooling\\Librarybooling.csproj|c:\\users\\csgof\\source\\repos\\librarybooling\\librarybooling\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09F9A708-D753-4AA9-B1DC-08D7AE693EF4}|Librarybooling\\Librarybooling.csproj|solutionrelative:librarybooling\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09F9A708-D753-4AA9-B1DC-08D7AE693EF4}|Librarybooling\\Librarybooling.csproj|c:\\users\\csgof\\source\\repos\\librarybooling\\librarybooling\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09F9A708-D753-4AA9-B1DC-08D7AE693EF4}|Librarybooling\\Librarybooling.csproj|solutionrelative:librarybooling\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09F9A708-D753-4AA9-B1DC-08D7AE693EF4}|Librarybooling\\Librarybooling.csproj|c:\\users\\csgof\\source\\repos\\librarybooling\\librarybooling\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09F9A708-D753-4AA9-B1DC-08D7AE693EF4}|Librarybooling\\Librarybooling.csproj|solutionrelative:librarybooling\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09F9A708-D753-4AA9-B1DC-08D7AE693EF4}|Librarybooling\\Librarybooling.csproj|c:\\users\\csgof\\source\\repos\\librarybooling\\librarybooling\\librarybooling.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{09F9A708-D753-4AA9-B1DC-08D7AE693EF4}|Librarybooling\\Librarybooling.csproj|solutionrelative:librarybooling\\librarybooling.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09F9A708-D753-4AA9-B1DC-08D7AE693EF4}|Librarybooling\\Librarybooling.csproj|c:\\users\\csgof\\source\\repos\\librarybooling\\librarybooling\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09F9A708-D753-4AA9-B1DC-08D7AE693EF4}|Librarybooling\\Librarybooling.csproj|solutionrelative:librarybooling\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Librarybooling",
+              "DocumentMoniker": "C:\\Users\\csgof\\source\\repos\\Librarybooling\\Librarybooling\\Librarybooling.csproj",
+              "RelativeDocumentMoniker": "Librarybooling\\Librarybooling.csproj",
+              "ToolTip": "C:\\Users\\csgof\\source\\repos\\Librarybooling\\Librarybooling\\Librarybooling.csproj",
+              "RelativeToolTip": "Librarybooling\\Librarybooling.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-26T13:15:02.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Library.cs",
+              "DocumentMoniker": "C:\\Users\\csgof\\source\\repos\\Librarybooling\\Librarybooling\\Library.cs",
+              "RelativeDocumentMoniker": "Librarybooling\\Library.cs",
+              "ToolTip": "C:\\Users\\csgof\\source\\repos\\Librarybooling\\Librarybooling\\Library.cs",
+              "RelativeToolTip": "Librarybooling\\Library.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAhwGkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T13:19:09.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\csgof\\source\\repos\\Librarybooling\\Librarybooling\\Reservation.cs",
+              "RelativeDocumentMoniker": "Librarybooling\\Reservation.cs",
+              "ToolTip": "C:\\Users\\csgof\\source\\repos\\Librarybooling\\Librarybooling\\Reservation.cs",
+              "RelativeToolTip": "Librarybooling\\Reservation.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T13:17:15.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\csgof\\source\\repos\\Librarybooling\\Librarybooling\\User.cs",
+              "RelativeDocumentMoniker": "Librarybooling\\User.cs",
+              "ToolTip": "C:\\Users\\csgof\\source\\repos\\Librarybooling\\Librarybooling\\User.cs",
+              "RelativeToolTip": "Librarybooling\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T13:15:14.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\csgof\\source\\repos\\Librarybooling\\Librarybooling\\Book.cs",
+              "RelativeDocumentMoniker": "Librarybooling\\Book.cs",
+              "ToolTip": "C:\\Users\\csgof\\source\\repos\\Librarybooling\\Librarybooling\\Book.cs",
+              "RelativeToolTip": "Librarybooling\\Book.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADgvw8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T13:12:57.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\csgof\\source\\repos\\Librarybooling\\Librarybooling\\Program.cs",
+              "RelativeDocumentMoniker": "Librarybooling\\Program.cs",
+              "ToolTip": "C:\\Users\\csgof\\source\\repos\\Librarybooling\\Librarybooling\\Program.cs",
+              "RelativeToolTip": "Librarybooling\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T13:12:23.71Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
