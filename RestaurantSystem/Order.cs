@@ -14,11 +14,12 @@ namespace RestaurantSystem
         public int TableNumber { get; private set; }
         public OrderStatus Status { get; private set; }
 
-        private readonly List<IMenuItem> _orderedtems = new List<IMenuItem>();
+        private List<IMenuItem> _orderedItems = new List<IMenuItem>();
 
         public Order(int tableNumber)
         {
-            Id = _nextId++;
+            Id = _nextId;
+            _nextId++; 
             TableNumber = tableNumber;
             Status = OrderStatus.New;
         }
@@ -27,34 +28,30 @@ namespace RestaurantSystem
         {
             if (item != null)
             {
-                _orderedtems.Add(item);
-                Console.WriteLine($"Додано позицію: {item.Name}");
+                _orderedItems.Add(item);
+                Console.WriteLine($"Додано позицію до замовлення {Id}: {item.Name}");
             }
             else
             {
-               Console.WriteLine("Позиція не знайдена в меню.");
+                Console.WriteLine("Помилка: страву не знайдено.");
             }
         }
 
         public void RemoveItem(IMenuItem item)
         {
-            if (item != null && _orderedtems.Contains(item))
+            if (item != null && _orderedItems.Contains(item))
             {
-                _orderedtems.Remove(item);
+                _orderedItems.Remove(item);
                 Console.WriteLine($"Видалено позицію: {item.Name}");
-            }
-            else
-            {
-                Console.WriteLine("Позиція не знайдена в замовленні.");
             }
         }
 
         public decimal CalculateTotal()
         {
             decimal total = 0;
-            foreach (IMenuItem item in _orderedtems)
+            foreach (IMenuItem item in _orderedItems)
             {
-                total += item.Price;
+                total = total + item.Price;
             }
             return total;
         }
@@ -68,9 +65,10 @@ namespace RestaurantSystem
         public void Display()
         {
             Console.WriteLine($"ID: {Id} | Стіл: {TableNumber} | Статус: {Status} | Сума: {CalculateTotal()} грн");
-            foreach (var item in _orderedtems)
+            foreach (var item in _orderedItems)
             {
-                Console.WriteLine($"    > {item.Name} - {item.Price} грн");
+                Console.Write("    > ");
+                item.Display();
             }
         }
     }

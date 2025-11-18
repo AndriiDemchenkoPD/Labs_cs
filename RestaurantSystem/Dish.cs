@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace RestaurantSystem
 {
-    public class Dish: MenuItem
+    public class Dish : MenuItem
     {
         public ItemCategory Category { get; private set; }
+
         public Dish(string name, decimal price, ItemCategory category)
             : base(name, price)
         {
@@ -17,7 +18,7 @@ namespace RestaurantSystem
 
         public override void Display()
         {
-            Console.WriteLine($"- {Name} ({Category}) - {Price} грн");
+            Console.WriteLine($"- {Name} (Категорія: {Category}) - {Price} грн");
         }
     }
 }

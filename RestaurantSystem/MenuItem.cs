@@ -6,27 +6,18 @@ using System.Threading.Tasks;
 
 namespace RestaurantSystem
 {
-    public abstract class MenuItem: IMenuItem
+    public abstract class MenuItem : IMenuItem
     {
-        private string _name;
-        private decimal _price;
-
-        public string Name
-        {
-            get { return _name; }
-            protected set { _name = value; }
-        }
-
-        public decimal Price
-        {
-            get { return _price; }
-            protected set { _price = (value > 0) ? value : 0; }
-        }
+        public string Name { get; protected set; }
+        public decimal Price { get; protected set; }
 
         protected MenuItem(string name, decimal price)
         {
             Name = name;
-            Price = price;
+            if (price > 0)
+                Price = price;
+            else
+                Price = 0;
         }
 
         public abstract void Display();

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RestaurantSystem
 {
-    public class Drink: MenuItem
+    public class Drink : MenuItem
     {
         public int VolumeInMl { get; private set; }
         public bool IsAlcoholic { get; private set; }
@@ -20,7 +20,11 @@ namespace RestaurantSystem
 
         public override void Display()
         {
-            string alcoholInfo = IsAlcoholic ? "Алкогольний" : "Безалкогольний";
+            string alcoholInfo = "Безалкогольний";
+            if (IsAlcoholic)
+            {
+                alcoholInfo = "Алкогольний";
+            }
             Console.WriteLine($"- {Name} ({alcoholInfo}, {VolumeInMl} мл) - {Price} грн");
         }
     }

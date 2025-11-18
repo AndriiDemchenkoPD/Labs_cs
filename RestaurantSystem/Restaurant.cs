@@ -9,13 +9,12 @@ namespace RestaurantSystem
     public class Restaurant
     {
         public Menu Menu { get; private set; }
-
         private List<Order> _activeOrders = new List<Order>();
 
         public Restaurant()
         {
             Menu = new Menu();
-            InitializeMenu(); 
+            InitializeMenu();
         }
 
         private void InitializeMenu()
@@ -43,12 +42,13 @@ namespace RestaurantSystem
             if (_activeOrders.Count == 0)
             {
                 Console.WriteLine("Активних замовлень немає.");
-                return;
             }
-
-            foreach (var order in _activeOrders)
+            else
             {
-                order.Display();
+                foreach (Order order in _activeOrders)
+                {
+                    order.Display();
+                }
             }
             Console.WriteLine("-------------------------------");
         }
@@ -59,10 +59,10 @@ namespace RestaurantSystem
             {
                 if (order.Id == id)
                 {
-                    return order; 
+                    return order;
                 }
             }
-            return null; 
+            return null;
         }
     }
 }

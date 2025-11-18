@@ -8,9 +8,12 @@ namespace RestaurantSystem
 {
     public class Menu
     {
-        private readonly List<IMenuItem> _items = new List<IMenuItem>();
+        private List<IMenuItem> _items = new List<IMenuItem>();
 
-        public IReadOnlyList<IMenuItem> Items => _items.AsReadOnly();
+        public List<IMenuItem> GetItems()
+        {
+            return _items;
+        }
 
         public void AddItem(IMenuItem item)
         {
@@ -20,17 +23,18 @@ namespace RestaurantSystem
         public void Display()
         {
             Console.WriteLine("--- МЕНЮ РЕСТОРАНУ ---");
-            foreach (var item in _items)
+            foreach (IMenuItem item in _items)
             {
                 item.Display();
             }
             Console.WriteLine("------------------------");
         }
-        public IMenuItem? FindItemByName(string name, List<IMenuItem> items)
+
+        public IMenuItem? FindItemByName(string name)
         {
-            foreach (var item in items)
+            foreach (IMenuItem item in _items)
             {
-                if (item.Name.Equals(name, StringComparison.OrdinalIgnoreCase))
+                if (item.Name == name)
                 {
                     return item;
                 }
